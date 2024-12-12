@@ -7,10 +7,48 @@ body{
     padding-top: 0%;
     margin: 0%;
     background-color: green;
+    color: aliceblue;
 }
 
+.divPagar{
+    display: flex;
+    align-items: center;
+    padding-left: 110px;
+    padding-top: 15px;
+}
 .pagarHeader{
-    padding: 0%;
+    margin-top: 0%;
+    padding: 15px 8px 15px 0;
     text-align: center;
     color: aliceblue;
+}
+
+.sectionChaveNum{
+    text-align: center;
+    width: 70%;
+    padding: 20px;
+    display: inline-block;
+}
+
+#icon{
+    margin-top: -1px;
+}
+
+.chaveNumericaCampo{
+    border-bottom: 5px solid black;
+}
+
+.contatosContainer{
+    background-color: rgb(178, 178, 178);
+    padding: 5px 10px 5px 10px;
+}
+
+.contatoChave{
+    margin: 0%;
+    padding: 0%;
+}
+
+.numeroChave{
+    margin-top: 3px;
+    padding: 0%;
 }
