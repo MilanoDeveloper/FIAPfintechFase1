@@ -1,54 +1,102 @@
-body{
-    padding: 0%;
-    margin: 0%;
-}
-
-.header{
-    padding-top: 0%;
-    margin: 0%;
-    background-color: green;
-    color: aliceblue;
-}
-
-.divPagar{
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding-left: 110px;
-    padding-top: 15px;
-}
-.pagarHeader{
-    margin-top: 0%;
-    padding: 15px 8px 15px 0;
-    text-align: center;
-    color: aliceblue;
+    height: 100vh;
 }
 
-.sectionChaveNum{
-    text-align: center;
-    width: 70%;
+.container {
+    background-color: #fff;
+    width: 90%;
+    max-width: 400px;
     padding: 20px;
-    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-height: 85%; /* Garante mais altura em telas menores */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-#icon{
-    margin-top: -1px;
+h1 {
+    background-color: #d6cf12;
+    color: #000;
+    padding: 15px 0;
+    margin: 0;
+    border-radius: 8px 8px 0 0;
+    font-size: 1.5rem;
 }
 
-.chaveNumericaCampo{
-    border-bottom: 5px solid black;
+.informacoes {
+    margin: 20px 0;
+    text-align: left;
+    border-top: 1px solid #000;
+    padding-top: 10px;
 }
 
-.contatosContainer{
-    background-color: rgb(178, 178, 178);
-    padding: 5px 10px 5px 10px;
+.linha {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 1rem;
 }
 
-.contatoChave{
-    margin: 0%;
-    padding: 0%;
+.botoes {
+    margin: 20px 0;
 }
 
-.numeroChave{
-    margin-top: 3px;
-    padding: 0%;
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.guardar {
+    background-color: #d6cf12;
+    color: #000;
+    margin-right: 10px;
+}
+
+.guardar:hover {
+    background-color: #4CAF50; /* Verde no hover */
+    color: #fff; /* Texto muda para branco */
+    transition: 0.8s;
+}
+
+.resgatar {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+.resgatar:hover {
+    background-color: #dc0e20; /* Verde no hover */
+    color: #fff; /* Texto muda para branco */
+    transition: 0.8s;
+}
+
+.historico {
+    display: block;
+    margin-top: 10px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #888;
+    background-color: #d6cf12;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
 }
