@@ -93,10 +93,10 @@ button {
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 0.8rem;
-    color: #888;
+    color: #2e2d2d;
     background-color: #d6cf12;
-    padding: 10px;
+    padding: 30px;
     border-radius: 0 0 8px 8px;
 }
